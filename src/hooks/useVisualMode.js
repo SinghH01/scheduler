@@ -19,9 +19,7 @@ export default function useVisualMode(initial) {
       //setHistory(prev => ([...prev, newValue])); 
       setHistory(newValue)
     }
-    console.log("====================")
-    console.log(history);
-    console.log("====================")
+
   }
 
   //Go back to previous mode
