@@ -30,9 +30,6 @@ export default function useVisualMode(initial) {
       let newValue = history[history.length-1];
       setMode(newValue);
     }
-    console.log("========++++++============")
-    console.log(history);
-    console.log("====================")
   }
   return {mode, transition, back}
 }
