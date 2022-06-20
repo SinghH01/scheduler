@@ -7,7 +7,12 @@ Interview Scheduler is a single-page application (SPA) that allows users to book
 * Gain experience with different development environments, including Storybook, Jest, and Webpack Dev Server
 
 ## Screenshots
+!["Application on load"](https://github.com/SinghH01/scheduler/blob/master/docs/scheduler-onLoad.png?raw=true)
+!["Add New Appointment"](https://github.com/SinghH01/scheduler/blob/master/docs/add-new-appointment.png?raw=true)
+!["New aAppointment Added"](https://github.com/SinghH01/scheduler/blob/master/docs/new-appointment-added.png?raw=true)
+!["Delete Appointment"](https://github.com/SinghH01/scheduler/blob/master/docs/delete-appointment.png?raw=true)
 
+!["Appointment Deleted"](https://github.com/SinghH01/scheduler/blob/master/docs/appointment-deleted.png?raw=true)
 
 
 ## Setup
