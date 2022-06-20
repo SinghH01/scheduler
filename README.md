@@ -44,3 +44,22 @@ npm run storybook
 ```sh
 npm start
 ```
+
+### Dev-Dependencies
+  * babel/core
+  * storybook/addon-actions
+  * storybook/addon-backgrounds
+  * storybook/addon-links
+  * storybook/addons
+  * storybook/react
+  * testing-library/jest-dom
+  * testing-library/react
+  * testing-library/react-hooks
+  * babel-loader
+  * node-sass
+  * prop-types
+  * react-test-renderer
+    
+    > **Note**
+    > We have to install a very specific version of react-test-renderer to match the version of react and react-dom in the project. Follow the [instructions](https://github.com/testing-library/react-hooks-testing-library#peer-dependencies) from the react-hooks-testing-library documetation
+ 
