@@ -1,18 +1,13 @@
 import React from "react";
-import "components/InterviewerListItem.scss"
+import "components/InterviewerListItem.scss";
 import classNames from "classnames";
 
-
-export default function InterviewerListItem(props) {  
-
-
+export default function InterviewerListItem(props) {
   // Apply different classes based on if item is selected or not
-  let interviewerClass = classNames(
-    "interviewers__item",
-    {
-      "interviewers__item--selected" : props.selected,  
-    }
-  );
+  let interviewerClass = classNames("interviewers__item", {
+    "interviewers__item--selected": props.selected,
+  });
+
   return (
     <li className={interviewerClass} onClick={props.setInterviewer}>
       <img
